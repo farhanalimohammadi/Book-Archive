@@ -1,0 +1,16 @@
+{
+  "id": "building-microservices",
+  "title": "ساخت میکروسرویس‌ها",
+  "originalTitle": "Building Microservices",
+  "author": "Sam Newman",
+  "description": "نسخه فارسی کتاب Building Microservices",
+  "cover": "/images/cover/cover.png",
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "slug": "introduction",
+      "number": 1,
+      "title": "مقدمه‌ای بر میکروسرویس‌ها"
+    }
+  ]
+}

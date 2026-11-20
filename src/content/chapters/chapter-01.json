@@ -1,0 +1,129 @@
+
+{
+  "id": "chapter-01",
+  "slug": "introduction",
+  "number": 1,
+  "title": "مقدمه‌ای بر میکروسرویس‌ها",
+  "description": "آشنایی با معماری میکروسرویس‌ها",
+  "pages": [
+    {
+      "id": "chapter-01-page-001",
+      "number": 1,
+      "blocks": [
+        {
+          "id": "chapter-01-block-001",
+          "type": "heading",
+          "level": 2,
+          "text": "معماری میکروسرویس‌ها"
+        },
+        {
+          "id": "chapter-01-block-002",
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "در معماری "
+            },
+            {
+              "type": "term",
+              "value": "Microservices",
+              "termId": "microservices"
+            },
+            {
+              "type": "text",
+              "value": " هر سرویس مسئولیت مشخصی دارد و می‌تواند به‌صورت مستقل توسعه داده شود."
+            }
+          ]
+        },
+        {
+          "id": "chapter-01-block-003",
+          "type": "image",
+          "src": "/images/chapters/chapter-01/diagram.png",
+          "alt": "نمونه دیاگرام معماری میکروسرویس‌ها",
+          "caption": "شکل ۱. نمای کلی معماری میکروسرویس‌ها"
+        },
+        {
+          "id": "chapter-01-block-004",
+          "type": "heading",
+          "level": 3,
+          "text": "ویژگی‌های اصلی"
+        },
+        {
+          "id": "chapter-01-block-005",
+          "type": "table",
+          "headers": [
+            [
+              {
+                "type": "text",
+                "value": "ویژگی"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "value": "توضیحات"
+              }
+            ]
+          ],
+          "rows": [
+            [
+              [
+                {
+                  "type": "text",
+                  "value": "استقلال سرویس"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "value": "امکان توسعه مستقل هر سرویس"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "value": "مقیاس‌پذیری"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "value": "امکان مقیاس‌دهی مستقل"
+                }
+              ]
+            ]
+          ]
+        },
+        {
+          "id": "chapter-01-block-006",
+          "type": "code",
+          "language": "typescript",
+          "content": "const service = {\n  name: 'order-service',\n  independent: true\n};"
+        },
+        {
+          "id": "chapter-01-block-007",
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "برای مطالعه بیشتر می‌توان به بخش "
+            },
+            {
+              "type": "link",
+              "label": "معماری سرویس‌ها",
+              "target": {
+                "chapterSlug": "service-architecture"
+              }
+            },
+            {
+              "type": "text",
+              "value": " مراجعه کرد."
+            }
+          ]
+        }
+      ]
+    }
+  ] 
+}
